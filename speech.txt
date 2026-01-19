@@ -1,0 +1,21 @@
+Aksh :-
+Good morning teachers and my friends.
+Today I want to share my game project called Classic Runner.
+
+Taksh :-
+Classic Runner is a 3D running and racing game that I created using HTML, CSS, JavaScript, and Three.js. In this game, players enter their name, choose a 3D character, and join an online arena.
+
+Taksh :-
+I used Three.js to show 3D characters and animations, and Firebase to connect players online in real time. This allows players to see who is online, invite friends, use emotes, and play together in the same lobby.
+
+Panth:-
+I also focused on making the game feel smooth and interactive, with clean animations, proper controls, and a simple but modern user interface. While building this project, I faced many errors and bugs, but solving them helped me understand how real applications are developed.
+
+Joy :-
+I designed the whole interface myself, including the loading screen, character selection, lobby, and controls. This project helped me learn coding, logic, debugging, and how real games are made.
+
+Aksh:-
+In the future, I plan to add real races, power-ups, leaderboards, and more multiplayer features.
+
+Badha :-
+Thank you.
