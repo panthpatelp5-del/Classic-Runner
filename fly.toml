@@ -1,6 +1,6 @@
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 
-app = 'classic-runner'
+app = 'classic-runner-panth'
 primary_region = 'sin'  # Singapore - change to your preferred region
 
 [build]
