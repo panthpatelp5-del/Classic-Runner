@@ -3104,11 +3104,12 @@
             db = getFirestore(app);
             console.log("Firestore Initialized");
 
-            // Initialize Socket.IO - Connect to the server that served this page
-            // This works both for localhost AND network access (other devices)
-            const socketURL = `http://${window.location.hostname}:3000`;
-            window.socket = io(socketURL);
-            console.log(`Socket.IO Initialized - Connected to ${socketURL}`);
+            // Initialize Socket.IO - Connect to the backend server
+            // For deployment: Frontend on Vercel, Backend on Fly.io
+            // IMPORTANT: Replace 'classic-runner' with your actual Fly.io app name
+            const SOCKET_SERVER_URL = 'https://classic-runner.fly.dev';
+            window.socket = io(SOCKET_SERVER_URL);
+            console.log(`Socket.IO Initialized - Connected to ${SOCKET_SERVER_URL}`);
 
             iziToast.success({
                 title: 'READY',
